@@ -1,0 +1,10 @@
+
+elements.Redbull = {
+	color: "#D8C16C",
+	behavior: behaviors.LIQUID,
+	category: "land",
+	state: "solid",
+};
+reactions: {
+        "Redbull" { elem1: Water, elem2: "Water" },
+},
